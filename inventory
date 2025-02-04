@@ -1,0 +1,11 @@
+[webservers]
+web-1   ansible_host = 10.0.1.6   fqdn = web-1.ru-central1.internal
+web-2   ansible_host = 10.0.1.31   fqdn = web-2.ru-central1.internal
+
+
+[databases]
+main   ansible_host = 10.0.1.26   fqdn = main.ru-central1.internal
+replica   ansible_host = 10.0.1.28   fqdn = replica.ru-central1.internal
+
+[storage]
+storage   ansible_host = 10.0.1.5   fqdn = storage.ru-central1.internal
